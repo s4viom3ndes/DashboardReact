@@ -34,9 +34,11 @@ const Topbar = () => {
         {/*Icones de busca*/}
         <Box displa = "flex">
             <IconButton onClick = {colorMode.toggleColorMode}>
-                {theme.palette.mode === "dark" ?(<DarkhModeOutlinedIconModeOutlinedIcon/>
+                {
+                theme.palette.mode === "dark" ?(<DarkModeOutlinedIconModeOutlinedIcon/>
 
-                ):(<LigthModeOutlinedIcon/>)}
+                ):(<LigthModeOutlinedIcon/>)
+                }
                 
             </IconButton>
         </Box>
