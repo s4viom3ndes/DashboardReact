@@ -1,6 +1,6 @@
 import { ColorModedeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import Topbar from "./scens/global/Topbar";
+import Topbar from "./scenes/global/Topbar";
 
 
 
