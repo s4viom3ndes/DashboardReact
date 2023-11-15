@@ -30,21 +30,21 @@ const Topbar = () => {
           {theme.palette.mode === "dark" ? <DarkModeOutlinedIcon /> : <LightModeOutlinedIcon />}  {/* Corrected icon name */}
         </IconButton>
       </Box>
+
+
       <Box display="flex">
         <IconButton>
           <NotificationsOutlinedIcon />
         </IconButton>
-      </Box>
-      <Box display="flex" >
+
         <IconButton>
           <SettingsOutlinedIcon/>
         </IconButton>
-      </Box>
-      <Box display="flex">
+
         <IconButton>
           <PersonOutlinedIcon/>
         </IconButton>
-      </Box>
+      </Box>  
     </Box>
   );
 };
